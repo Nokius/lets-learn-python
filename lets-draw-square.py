@@ -1,10 +1,11 @@
 import turtle
 
-turtle.forward(100)
+turtle.shape("turtle")
+turtle.forward(50)
 turtle.left(90)
 turtle.forward(50)
 turtle.left(90)
-turtle.forward(100)
+turtle.forward(50)
 turtle.left(90)
 turtle.forward(50)
 turtle.exitonclick()
