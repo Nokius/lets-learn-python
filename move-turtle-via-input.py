@@ -1,7 +1,9 @@
 import turtle
 
+
 def move():
     direction = input("Go left or right? ")
+    direction = direction.strip().lower()
     if direction == "left":
         turtle.left(60)
         turtle.forward(50)
